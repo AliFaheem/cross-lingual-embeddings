@@ -15,14 +15,6 @@ We evaluate multilingual embedding models before and after Procrustes alignment 
 - `data/README.md`: Dataset access and preparation notes
 - `results/`: Structured metric exports for tables/figures
 
-## Dataset Summary (reported run)
-- SQuAD train rows: 87,599
-- UQA train rows: 124,745
-- Aligned intersection pairs: 83,018
-- Unique English contexts indexed: 18,857
-- Urdu query pool: 18,828
-- Procrustes split (alignment): 15% train / 85% test
-- Retrieval split: 70% train / 30% test
 
 ## Key Reported Results
 - MiniLM retrieval Recall@1: 0.3871 -> 0.4059 (after alignment)
